@@ -27,7 +27,7 @@ bot.on('message', msg => {
       "https://www.youtube.com/watch?v=wJGR5Y-Qqac&list=PLqOZ6FD_RQ7kTjN4O2MNzf5YfeiIx7SGI"
     ];
 
-    var index = Math.floor(Math.random(yt_videos.length));
+    var index = Math.floor(Math.random() * yt_videos.length);
     const taggedUser = msg.mentions.users.first();
     if(taggedUser == null) return;
     msg.channel.send('<@'+taggedUser.id+"> "+yt_videos[index]);
