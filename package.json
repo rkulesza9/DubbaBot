@@ -1,0 +1,14 @@
+{
+  "name": "dubbabot",
+  "version": "1.0.0",
+  "description": "Welcome to Chem class",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.2.0"
+  }
+}
