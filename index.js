@@ -1,6 +1,6 @@
 const Discord = require("discord.js");
 const bot = new Discord.Client();
-const token = "NzAyNDg2OTY1OTMyNzg1NzE0.XqAwTg.rtZHWXybap2WfjezexXNKvZQcuQ";
+const token = require("./credentials.js");
 
 const prefix = "+chem";
 
